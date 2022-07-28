@@ -15,21 +15,29 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
-    <header class="page-header section">
-      <div class="page-header__container container">
+    <header class="section page-header">
+      <div class="page-header__container">
         <a href="/home.html" class="logo">Logo</a>
 
         <nav>
           <ul class="page-header__nav">
             <li class="page-header__nav-item">
-              <a href="./bonus.html" class="page-header__link">Bonuses</a>
+              <a
+                href="./bonus.html"
+                class="page-header__link page-header__link--bonuses"
+                >Bonuses</a
+              >
             </li>
             <li class="page-header__nav-item">
-              <a href="./app.html" class="page-header__link">App</a>
+              <a
+                href="./app.html"
+                class="page-header__link page-header__link--app"
+                >App</a
+              >
             </li>
             <li class="page-header__nav-item">
               <a href="#" class="page-header__link">Live</a>
@@ -43,10 +51,12 @@
           </ul>
         </nav>
 
-        <span class="page-header__link lang">HHH</span>
+        <button class="page-header__btn btn">
+          <span class="page-header__lang">At</span>
+        </button>
         <ul class="page-header__actions">
           <li class="page-header__action">
-            <button class="page-header__btn btn">Sign up</button>
+            <button class="page-header__btn--signup btn">Sign up</button>
           </li>
           <li class="page-header__action">
             <button class="page-header__btn--login btn">Log in</button>
@@ -55,19 +65,25 @@
       </div>
     </header>
 
-    <main>
-      <section class="section mobile-app"></section>
-      <section class="section hero"></section>
-      <section class="section features"></section>
-      <section class="section get-bonus"></section>
-      <section class="section about-bonus"></section>
-      <section class="section rating"></section>
-      <section class="section facts"></section>
-      <section class="section review"></section>
-      <section class="section customer-reviews"></section>
-      <section class="section support"></section>
-      <section class="section faq"></section>
-    </main>
+    <div class="content__wrapper">
+      <main class="content">
+        <section class="section mobile-app"></section>
+        <section class="section hero"></section>
+        <section class="section features"></section>
+        <section class="section get-bonus"></section>
+        <section class="section about-bonus"></section>
+        <section class="section rating"></section>
+        <section class="section facts"></section>
+        <section class="section review"></section>
+        <section class="section customer-reviews"></section>
+        <section class="section support"></section>
+        <section class="section faq"></section>
+      </main>
+      <aside class="sidebar"></aside>
+    </div>
+    <div class="gradient gradient__top"></div>
+    <div class="gradient gradient__middle"></div>
+    <div class="gradient gradient__bottom"></div>
 
     <footer class="page-footer section"></footer>
   </body>
