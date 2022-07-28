@@ -1,0 +1,42 @@
+.gradient {
+  position: absolute;
+  left: -284px;
+  width: 2114px;
+  height: 2114px;
+}
+
+.gradient__top {
+  top: 138px;
+  background-image: radial-gradient(
+    25.94% 25.94% at 45.9% 46.39%,
+    #ffffff 0%,
+    #00b9de 20.1%,
+    #0085c2 39.9%,
+    rgba(0, 104, 154, 0.39) 68.02%,
+    rgba(0, 83, 123, 0) 100%
+  );
+}
+
+.gradient__middle {
+  top: 2062px;
+  background-image: radial-gradient(
+    25.94% 25.94% at 51.99% 46.39%,
+    #ffffff 0%,
+    #00b9de 20.1%,
+    #0085c2 39.9%,
+    rgba(0, 104, 154, 0.39) 68.02%,
+    rgba(0, 83, 123, 0) 100%
+  );
+}
+
+.gradient__bottom {
+  top: 4157px;
+  background-image: radial-gradient(
+    36% 36% at 45.9% 46.39%,
+    #ffffff 0%,
+    #00b9de 20.1%,
+    #0085c2 39.9%,
+    rgba(0, 104, 154, 0.39) 68.02%,
+    rgba(0, 83, 123, 0) 100%
+  );
+}
