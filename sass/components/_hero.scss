@@ -1,0 +1,50 @@
+.hero {
+  height: 384px;
+  padding: 41px 367px 52px 20px;
+
+  background-image: url('../../images/hero-player.png'),
+    url('../../images/hero-bcg.png'), url('../../images/hero-bcg1.jpg');
+
+  background-repeat: no-repeat;
+  background-position: left 595px top 0px, center, bottom -40px left -70px;
+}
+
+.hero__score {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+
+  color: #ffffff;
+}
+
+.hero__title {
+  color: #ffffff;
+}
+
+.hero__overlay {
+  display: flex;
+  flex-direction: column;
+  width: 214px;
+  align-items: center;
+}
+
+.hero__text {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  color: #192a32;
+
+  opacity: 0.8;
+}
+
+.hero__subtext {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 150%;
+
+  color: #ffffff;
+}

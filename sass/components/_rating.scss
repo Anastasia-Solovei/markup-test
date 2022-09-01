@@ -1,0 +1,14 @@
+.rating {
+  display: inline-flex;
+  margin-left: 8px;
+}
+
+.rating__item {
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/icons/star.png');
+}
+
+.rating__item:not(:first-child) {
+  margin-left: 6px;
+}

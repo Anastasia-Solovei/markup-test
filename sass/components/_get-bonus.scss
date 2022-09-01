@@ -1,0 +1,20 @@
+.get-bonus {
+  height: 384px;
+  padding: 90px 411px 90px 20px;
+
+  background-image: url('../../images/get-bonus-cards.png'),
+    url('../../images/get-bonus-wing.png'),
+    url('../../images/get-bonus-bcg.png');
+
+  background-repeat: no-repeat;
+  background-position: left 572px top 27px, left 465px top 73px, center;
+}
+
+.get-bonus__text {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+
+  color: #192a32;
+}
