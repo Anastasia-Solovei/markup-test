@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 5926px;
   background-color: #141e55;
-  /* color: */
+  color: #192a32;
   font-family: 'Poppins', sans-serif;
   /* font-size: 14px; */
   /* letter-spacing: 0.03em; */
@@ -247,13 +247,26 @@ section:not(:first-child) {
   margin-left: 6px;
 }
 
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
 .subtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 120%;
   text-transform: uppercase;
-  color: #192a32;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .sidebar {
@@ -295,10 +308,6 @@ section:not(:first-child) {
 
 .mobile-app__text {
   width: 666px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #192a32;
 }
 
 .mobile-app__btn {
@@ -454,7 +463,14 @@ section:not(:first-child) {
   margin-top: 16px;
   font-weight: 700;
   font-size: 32px;
-  line-height: 1.2;
-  color: #192a32;
+  line-height: 120%;
+}
+
+.about-bonus {
+  padding: 32px 20px;
+}
+
+.about-bonus__text {
+  margin-top: 16px;
 }
 /*# sourceMappingURL=main.css.map */
