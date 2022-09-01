@@ -46,28 +46,15 @@
     padding-bottom: 12px;
   }
 
-  &__link--bonuses::before {
-    content: '';
-    margin-right: 10px;
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    background-image: url('../../images/icons/Gift.png');
-  }
-
   &__link--app {
     width: 113px;
     padding-top: 12px;
     padding-bottom: 12px;
   }
 
-  &__link--app::before {
-    content: '';
+  &__icon {
     margin-right: 10px;
-    width: 24px;
-    height: 24px;
-    background-size: contain;
-    background-image: url('../../images/icons/iPhone.png');
+    fill: currentColor;
   }
 
   &__actions {

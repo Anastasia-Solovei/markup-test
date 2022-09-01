@@ -31,17 +31,7 @@
     height: 24px;
 
     background-size: contain;
-    background-image: url('../../images/icons/Flag.png');
-  }
-
-  &--lang::after {
-    content: '';
-    margin-left: 4px;
-    width: 24px;
-    height: 24px;
-
-    background-size: contain;
-    background-image: url('../../images/icons/Arrow-Down.png');
+    background-image: url('../../images/icons/flag.png');
   }
 
   &--login {
@@ -61,5 +51,10 @@
 
     background-color: #ec622b;
     border: 1px solid #ffffff;
+  }
+
+  &__icon--after {
+    fill: currentColor;
+    margin-left: 4px;
   }
 }
