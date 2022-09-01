@@ -13,7 +13,7 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
@@ -23,8 +23,8 @@
       <div class="page-header__container">
         <a href="/home.html" class="logo">Logo</a>
 
-        <nav>
-          <ul class="page-header__nav">
+        <nav class="page-header__nav">
+          <ul class="page-header__nav-list">
             <li class="page-header__nav-item">
               <a
                 href="./bonus.html"
@@ -51,15 +51,14 @@
           </ul>
         </nav>
 
-        <button class="page-header__btn btn">
-          <span class="page-header__lang">At</span>
-        </button>
+        <button class="btn btn--lang">At</button>
+
         <ul class="page-header__actions">
           <li class="page-header__action">
-            <button class="page-header__btn--signup btn">Sign up</button>
+            <button class="btn--signup btn">Sign up</button>
           </li>
           <li class="page-header__action">
-            <button class="page-header__btn--login btn">Log in</button>
+            <button class="btn--login btn">Log in</button>
           </li>
         </ul>
       </div>
@@ -67,10 +66,145 @@
 
     <div class="content__wrapper">
       <main class="content">
-        <section class="section mobile-app"></section>
-        <section class="section hero"></section>
-        <section class="section features"></section>
-        <section class="section get-bonus"></section>
+        <section class="section mobile-app">
+          <p class="mobile-app__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+            egestas eget purus, in dapibus imperdiet quis eget. Curabitur semper
+            volutpat cras elementum.
+          </p>
+          <button class="mobile-app__btn btn">
+            <svg class="mobile-app__icon">
+              <use href="./images/icons/icons.svg#ios"></use>
+            </svg>
+            <svg class="mobile-app__icon">
+              <use href="./images/icons/icons.svg#android"></use>
+            </svg>
+            Mobile app
+          </button>
+        </section>
+
+        <section class="section hero">
+          <div class="hero__bcg"></div>
+          <span class="hero__score">96/100</span>
+          <ul class="rating">
+            <li class="rating__item">
+              <button class="rating__btn"></button>
+            </li>
+            <li class="rating__item">
+              <button class="rating__btn"></button>
+            </li>
+            <li class="rating__item">
+              <button class="rating__btn"></button>
+            </li>
+            <li class="rating__item">
+              <button class="rating__btn"></button>
+            </li>
+            <li class="rating__item">
+              <button class="rating__btn"></button>
+            </li>
+          </ul>
+
+          <p class="hero__text">Overall Rating Among Players</p>
+          <h3 class="hero__title subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing
+          </h3>
+          <div class="hero__overlay">
+            <button class="btn--accent btn">Sign up</button>
+            <span class="hero__subtext">18+ T&C apply | Play Responsibly</span>
+          </div>
+        </section>
+
+        <section class="section features">
+          <ul class="features__list">
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#money"></use>
+                </svg>
+                Play review
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#crown"></use>
+                </svg>
+                Casino bonuses
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#trophy"></use>
+                </svg>
+                Casino bonuses
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#online-casino"></use>
+                </svg>
+                Casino app
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#mobile"></use>
+                </svg>
+                Casino mobile
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#signup"></use>
+                </svg>
+                How to sign up
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#casino-review"></use>
+                </svg>
+                Casino review
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#reviews"></use>
+                </svg>
+                Player reviews
+              </a>
+            </li>
+
+            <li class="features__item">
+              <a href="" class="features__link">
+                <svg class="features__icon">
+                  <use href="./images/icons/icons.svg#table"></use>
+                </svg>
+                Complaints
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section get-bonus">
+          <h3 class="subtitle">100% bonus up to 300€</h3>
+          <p class="get-bonus__text">+100 free spins on your first deposit</p>
+          <button class="btn--accent btn">Get a bonus now</button>
+        </section>
+
         <section class="section about-bonus"></section>
         <section class="section rating"></section>
         <section class="section facts"></section>
