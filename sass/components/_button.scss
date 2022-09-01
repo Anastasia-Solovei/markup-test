@@ -9,8 +9,57 @@
   text-transform: uppercase;
 
   color: #fcfcfc;
+  background-color: #1a3769;
   border-radius: 16px;
   border-width: 0;
   box-shadow: 0px 4px 18px rgba(14, 24, 17, 0.25);
   cursor: pointer;
+
+  &--lang {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    color: #ffffff;
+  }
+
+  &--lang::before {
+    content: '';
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+
+    background-size: contain;
+    background-image: url('../../images/icons/Flag.png');
+  }
+
+  &--lang::after {
+    content: '';
+    margin-left: 4px;
+    width: 24px;
+    height: 24px;
+
+    background-size: contain;
+    background-image: url('../../images/icons/Arrow-Down.png');
+  }
+
+  &--login {
+    background-color: #0fa810;
+  }
+
+  &--signup {
+    background-color: #ec622b;
+  }
+
+  &--accent {
+    margin-top: 16px;
+    width: 214px;
+    padding: 13px 0px;
+
+    line-height: 128%;
+
+    background-color: #ec622b;
+    border: 1px solid #ffffff;
+  }
 }
