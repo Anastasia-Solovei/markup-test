@@ -1,5 +1,8 @@
 section {
-  margin-top: 20px;
   background-color: #ffffff;
   border-radius: 6px;
+}
+
+section:not(:first-child) {
+  margin-top: 20px;
 }

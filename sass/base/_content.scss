@@ -1,15 +1,17 @@
 .content__wrapper {
   display: flex;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 
-  // @media screen and (min-width: $mobile) {
-  //   width: 480px;
-  // }
+  @media screen and (min-width: $mobile) {
+    width: 480px;
+  }
 
-  // @media screen and (min-width: $tablet) {
-  //   width: 768px;
-  // }
+  @media screen and (min-width: $tablet) {
+    width: 768px;
+  }
 
   @media screen and (min-width: $desktop) {
     width: 1240px;
